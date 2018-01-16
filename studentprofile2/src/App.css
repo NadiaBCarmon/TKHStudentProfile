@@ -1,0 +1,180 @@
+.StudentProfile {
+  background-color: #9B9B9B;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.TKHLogo {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin-left: 1230px;
+}
+
+.User-Header {
+  background-color: #3C2752;
+  width: 100%;
+  border-style: #f3f3f3;
+  height: 80px;
+}
+
+.Username {
+  display: inline-block;
+  color: white;
+  float: left;
+  margin-top: -83px;
+  margin-left: 8px;
+}
+
+.Links {
+  height: 500px;
+  width: 650px;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  border-style: solid;
+  display: inline-block;
+  margin-left: -177px;
+  margin-top: 19px;
+}
+
+.ProfileImage {
+  display: inline-block;
+  height: 100px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.FullName {
+  margin-left: 20em;
+  margin-top: -105px;
+}
+
+.ProfSites {
+  margin-top: 110px;
+  font-size: 25px;
+}
+
+
+.Contact {
+  margin-top: 20px;
+}
+
+button {
+  height: 40px;
+  width: 126px;
+  background-color: #3C2752;
+  border-color: white;
+  color: white;
+  font-size: 20px;
+}
+
+
+.Badges {
+  height: 500px;
+  width: 650px;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  border-style: solid;
+  display: inline-block;
+  margin-left: 676px;
+  margin-top: -515px;
+  margin-bottom: 14px;
+}
+
+.CourseTitle {
+  background-color: lightgrey;
+  display: inline-block;
+  height: 60px;
+  width: 1315px;
+  margin-top: -5px;
+  padding-top: 13px;
+}
+
+p {
+color: red;
+}
+
+.Upcoming {
+  height: 100px;
+  width: 350px;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  border-style: solid;
+  margin-left: 50px;
+}
+
+.PastDue {
+  display: inline-block;
+  background-color: lightgrey;
+  float: right;
+  height: 100px;
+  width: 350px;
+  border-color: lightgrey;
+  border-style: solid;
+  margin-right: 50px;
+}
+
+.ExtraCredit {
+  height: 100px;
+  width: 350px;
+  border-color: lightgrey;
+  background-color: lightgrey;
+  border-style: solid;
+  margin-left: 50px;
+}
+
+.Attendance {
+  display: inline-block;
+  float: right;
+  height: 100px;
+  width: 350px;
+  border-color: lightgrey;
+  background-color: lightgrey;
+  border-style: solid;
+  margin-right: 50px;
+}
+
+
+.FirstReact {
+  height: 50px;
+  width: 350px;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  border-style: solid;
+  margin-left: 50px;
+}
+
+.AddGrade1 {
+  background-color: lightgrey;
+  display: inline-block;
+  float: right;
+  height: 50px;
+  width: 350px;
+  border-color: lightgrey;
+  border-style: solid;
+  margin-right: 50px;
+}
+
+.SecondReact {
+  background-color: lightgrey;
+  height: 50px;
+  width: 350px;
+  border-color: lightgrey;
+  border-style: solid;
+  margin-left: 50px;
+}
+
+.AddGrade2 {
+  background-color: lightgrey;
+  display: inline-block;
+  float: right;
+  height: 50px;
+  width: 350px;
+  border-color: lightgrey;
+  border-style: solid;
+  margin-right: 50px;  
+}
