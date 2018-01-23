@@ -35,10 +35,9 @@ class AddTask extends React.Component {
 				</form>
 					);//End of return//
 			
-				}, 
+				} 
 
 				//Custom functions//
-				handleSubmit: function()
 
 				//End of render()//
 
