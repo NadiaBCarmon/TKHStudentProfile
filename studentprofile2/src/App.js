@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import TKHLogo from './TKHLogo.jpg';
 import Josh from './josh.png';
+import AddTask from './AddTask.js';
 
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-
-    };
+    this.state = { output: '' };
   }
 
   render() {
@@ -16,13 +15,14 @@ class App extends Component {
       <div className="StudentProfile">
 
         <div className="User-Header">
-          <a href=""><img className="TKHLogo" src={TKHLogo}></img></a>
+          <a href=""><img className="TKHLogo" src={TKHLogo} alt=
+          ""></img></a>
           <div className="Username"><h1>@Username</h1></div>
         </div>
 
 
         <div className="Links">
-           <div className="ProfileImage"><img src={Josh}></img></div>
+           <div className="ProfileImage"><img src={Josh} alt=""></img></div>
            <div className="FullName"><h1>Joshua Moye</h1></div>
           
           <div className="ProfSites">
@@ -45,56 +45,59 @@ class App extends Component {
         </div>
         </center>
 
-        <br />
+         <br />
 
         <div className="PastDue">
-        <center><p1>Put this.state() information</p1></center>
+        <center><p1></p1></center>
         <center><p1>Netflix Binge - 12/15/17</p1></center>
         </div>
 
         <div className="Upcoming">
-        <center><p1>Put this.state()</p1></center>
+        <AddTask />
+
+        <center><p1></p1></center>
         <center><p1>Tyler McGinnis 1 - 01/01/18</p1></center>
         <center><p1>Address book - 01/03/18</p1></center>
         </div>
 
-          <br />
+         <br />
 
 
         <div className="Attendance">
-        <center><p1>Put this.state()</p1></center>
+        <center><p1></p1></center>
         <center><p1>6 Latenesses</p1></center>
         <center><p1>1 Unexcused Absence</p1></center>
         </div>
 
         <div className="ExtraCredit">
-        <center><p1>Put this.state()</p1></center>
+        <center><p1></p1></center>
         <center><p1>Tech Convention at Town Hall</p1></center>
         <center><p1>Wash My Car</p1></center>
         </div>
 
-          <br />
+         <br />
 
-          <div className="AddGrade1">
-        <center><p1>Put this.state()</p1></center>
+        <div className="AddGrade1">
+        <center><p1></p1></center>
         </div>
 
         <div className="FirstReact">
         <center><p1>First React Assignment</p1></center>
+        <center><p1></p1></center>
         </div>
 
          <br />
 
         <div className="AddGrade2">
-        <center><p1>Put this.state()</p1></center>
-        <center><p1>   </p1></center>
+        <center><p1></p1></center>
         </div>
 
         <div className="SecondReact">
         <center><p1>Second React Assignment</p1></center>
+        <center><p1></p1></center>
         </div>
 
-        <br/>
+         <br/>
 
         
       
